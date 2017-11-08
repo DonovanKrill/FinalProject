@@ -1,7 +1,5 @@
-
-
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Arial Narrow", Helvetica, sans-serif;
 }
 
 #imageX {
@@ -154,8 +152,6 @@ p {
 	margin: 25px;
 }
 
-
-
 #donoman img{
 	max-width: 400px;
 	max-height: 300px;
@@ -181,10 +177,6 @@ p {
 	margin: 0 auto;
 	text-align: center;
 }
-
-
-
-
 
 
 a:link{
@@ -222,8 +214,8 @@ a:visited{
 
 #clock {
 	font-family: "Arial Narrow";
-  font-size: 100px;
-  letter-spacing: 1px;
-  color: white;
-  text-shadow: 0.45rem 0.45rem 1rem rgba(0,0,0,0.4);
+  	font-size: 100px;
+  	letter-spacing: 1px;
+  	color: white;
+  	text-shadow: 0.45rem 0.45rem 1rem rgba(0,0,0,0.4);
 }

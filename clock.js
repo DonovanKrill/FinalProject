@@ -1,19 +1,21 @@
 function clock() {
-  var date = new Date(),
-      min = date.getMinutes(),
-      sec = date.getSeconds(),
-      hr = date.getHours();   
-  if(hr < 10) {
-    hr = "0" + hr;
+  var date = new Date();
+      hours = date.getHours();  
+      minutes = date.getMinutes();
+      seconds = date.getSeconds();
+      
+
+  if (hours < 10) {
+    hours = "0" + hours;
   }
-  if(min < 10) {
-    min = "0" + min;
+  if (minutes < 10) {
+    minutes = "0" + minutes;
   }
-  if(sec < 10) {
-    sec = "0" + sec;
+  if (seconds < 10) {
+    seconds = "0" + seconds;
   }
-  var color = "" + sec + min + hr;
-  document.getElementById("clock").innerHTML = hr + ":" + min + ":" + sec;
+  var color = "" + seconds + minutes + hours;
+  document.getElementById("clock").innerHTML = hours + " : " + minutes + " : " + seconds;
   document.body.style.background = "#" + color;
 }
 
