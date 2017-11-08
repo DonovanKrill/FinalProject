@@ -2,6 +2,12 @@ body {
 	font-family: "Arial Narrow", Helvetica, sans-serif;
 }
 
+@media all and (max-width: 768px){
+  body{
+    background-color: #37FDFC;
+} }
+
+
 #imageX {
 	display: block;
 	margin: auto;
