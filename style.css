@@ -1,0 +1,225 @@
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#imageX {
+	display: block;
+	margin: auto;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+h6 {
+
+	font-family: "Arial Narrow"; sans serif; 
+	font-size: 15px;
+	color: #C0C0C0;
+	padding: 1px;
+	margin: auto;
+	
+}
+
+#Logo {
+	
+	margin: auto;
+	padding-bottom: 1px;
+
+}
+
+#AbootMe {
+	width: 750px;
+	float: left;
+	padding-top: 50px;
+}
+
+#sidebar {
+	float: left;
+	margin-left: 10px;
+	margin-top: 75px;
+	padding: 15px 15px 30px 15px;
+}
+
+#sidebar ul li a {
+	color: black;
+	font-family: "Arial Narrow"; sans serif; 
+	font-size: 15px;
+}
+
+#sidebar ul {
+	list-style: none;
+	padding-bottom: 5px;
+}
+
+ul#subscribe li {
+	padding-bottom: 1px;
+	padding-left: 30px;
+	font-size: 18px;
+}
+
+
+ul#Menu {
+	list-style: none;
+	padding-top: 1px;
+	margin: auto;
+	clear: left;
+}
+
+ul#Menu  li a {
+	font-size: 30px;
+	text-decoration: none;
+	color: #39FF14
+}
+
+ul#Menu li {
+	float: left;
+	padding-left: 25px;
+	padding-right: 10px;
+}
+
+ul#Menu2 {
+	list-style: none;
+	padding-top: 1px;
+	margin: auto;
+	clear: both;
+}
+
+ul#Menu2  li a {
+	font-size: 30px;
+	text-decoration: none;
+	color: #39FF14
+}
+
+ul#Menu2 li {
+	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#footer {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	margin: auto;
+}
+
+h1 {
+	color: #707070; 
+	font-family: "Impact", sans serif; 
+	font-weight: 200;
+	text-align: center; 
+	font-size: 100px; 
+	text-transform: uppercase; 
+	margin: 5px;
+}
+
+h2 {
+	color: rgb(100, 100, 100); 
+	font-family: "Impact"; sans serif; 
+	text-align: center; 
+	font-size: 75px; 
+	text-transform: uppercase;
+	clear: left;
+	margin: 5px;
+}
+
+
+h3 {
+	color: rgb(100, 100, 100); 
+	font-family: "Impact"; sans serif; 
+	text-align: center; 
+	font-size: 20px; 
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #39FF14;
+	font-family: "Arial Narrow"; sans serif; 
+	font-size: 50px;
+	text-align: center;
+	clear: left;
+	margin: 5px;
+}
+
+p {
+	color: black;
+	font-family: "Arial Narrow"; sans serif; 
+	font-size: 15px;
+	text-align: center;
+	clear: left;
+	margin: 25px;
+}
+
+
+
+#donoman img{
+	max-width: 400px;
+	max-height: 300px;
+	width: 100%;
+	float: left;
+	object-fit: cover; 
+	margin-bottom: 10px;
+	margin-right: 30px; 	
+}
+
+#imageA {
+	width: 350px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#image5 {
+	width: 300px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+
+
+
+a:link{
+	font-size: 25px;
+	font-family: "Arial";
+	color: black;
+	text-decoration: none;
+	clear: left;
+}
+
+a:visited{
+	font-size: 25px;
+	font-family: "Arial";
+	text-decoration: none;
+	color: #39FF14;
+}
+
+@media all and (max-width: 480px) {
+
+#donoman img{
+	width: 100px; 
+	height: 100px; 
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 30px; 	
+}
+}
+
+#DonoClock {
+	font-size: 100px;
+	font-weight: 300;
+	font-family: "Arial Narrow";
+}
+
+#DClock {
+	margin-top: 200px;
+	text-align: center;
+}
