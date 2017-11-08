@@ -213,13 +213,17 @@ a:visited{
 }
 }
 
-#DonoClock {
-	font-size: 100px;
-	font-weight: 300;
-	font-family: "Arial Narrow";
+#chtml, #clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
 }
 
-#DClock {
-	margin-top: 200px;
-	text-align: center;
+#clock {
+	font-family: "Arial Narrow";
+  font-size: 100px;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 0.45rem 0.45rem 1rem rgba(0,0,0,0.4);
 }

@@ -1,0 +1,14 @@
+#chtml, #clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+#clock {
+	font-family: "Arial Narrow";
+  font-size: 100px;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 0.45rem 0.45rem 1rem rgba(0,0,0,0.4);
+}
